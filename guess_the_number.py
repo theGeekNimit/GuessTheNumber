@@ -1,7 +1,8 @@
 import random
 import sys 
+
 def guess1():
-    k=int(input("Enter the number you want between 0 to - "))
+    k=int(input("Enter the number you want between 0 to - 99 "))
     n = random.randint(0,k)
     valid_att=int(k/3)
  
